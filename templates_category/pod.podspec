@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
 
-  # s.resource  = "icon.png"
+  s.resources  = "__ProjectName__/__ProjectName__/**/*.{storyboard,xib}", "__ProjectName__/Assets.xcassets"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   # s.dependency "HLNetworking"
   # s.dependency "HLNetworking+Lovek12"
   # s.dependency "HLBaseUser"
-  s.dependency "Lothar"
+  # s.dependency "Lothar"
   # s.dependency "UMengUShare/Social/Sina"
   # s.dependency "UMengUShare/Social/WeChat"
   # s.dependency "UMengUShare/Social/QQ""
